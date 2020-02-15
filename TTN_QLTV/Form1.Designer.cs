@@ -131,6 +131,7 @@
             this.thaoTácToolStripMenuItem.Name = "thaoTácToolStripMenuItem";
             this.thaoTácToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
             this.thaoTácToolStripMenuItem.Text = "Thao Tác";
+            this.thaoTácToolStripMenuItem.Click += new System.EventHandler(this.thaoTácToolStripMenuItem_Click);
             // 
             // mượnSáchToolStripMenuItem
             // 

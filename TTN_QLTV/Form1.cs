@@ -65,5 +65,10 @@ namespace TTN_QLTV
         {
 
         }
+
+        private void thaoTácToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
