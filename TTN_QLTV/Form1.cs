@@ -19,12 +19,11 @@ namespace TTN_QLTV
 
         private void sáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
         }
 
         private void mượnSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+           
         }
 
         private void chiTiếtMượnSáchToolStripMenuItem_Click(object sender, EventArgs e)
@@ -43,7 +42,7 @@ namespace TTN_QLTV
 
         private void tácGiảToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            
         }
 
         private void thểLoạiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -53,12 +52,15 @@ namespace TTN_QLTV
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            DialogResult bt = MessageBox.Show("Bạn muốn thoát không?", "Xác Nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (bt == DialogResult.OK)
+                Application.Exit();
         }
 
         private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
 
-          
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
