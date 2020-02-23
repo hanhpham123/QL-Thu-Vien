@@ -372,6 +372,7 @@
             this.txttensach.Name = "txttensach";
             this.txttensach.Size = new System.Drawing.Size(199, 22);
             this.txttensach.TabIndex = 11;
+            this.txttensach.TextChanged += new System.EventHandler(this.txttensach_TextChanged);
             // 
             // txtnamxb
             // 

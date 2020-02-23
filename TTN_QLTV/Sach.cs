@@ -285,5 +285,10 @@ inner join TacGia ON S.MaTG=TacGia.MaTG";
         {
 
         }
+
+        private void txttensach_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
