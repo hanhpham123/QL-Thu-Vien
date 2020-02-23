@@ -19,6 +19,9 @@ namespace TTN_QLTV
 
         private void sáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.Close();
+            Sach frm = new Sach();
+            frm.Show();
         }
 
         private void mượnSáchToolStripMenuItem_Click(object sender, EventArgs e)
@@ -33,11 +36,14 @@ namespace TTN_QLTV
 
         private void độcGiảToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            this.Close();
+            DocGia frm = new DocGia();
+            frm.Show();
         }
 
         private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
         }
 
         private void tácGiảToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,7 +65,9 @@ namespace TTN_QLTV
 
         private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
+            TaiKhoan frm = new TaiKhoan();
+            frm.Show();
 
         }
 
@@ -74,6 +82,11 @@ namespace TTN_QLTV
         }
 
         private void quảnLýToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
