@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.dtgvtaikhoan = new System.Windows.Forms.DataGridView();
+            this.Column1MaTK = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1Usename = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btthoat = new System.Windows.Forms.Button();
             this.btXoa = new System.Windows.Forms.Button();
             this.btSua = new System.Windows.Forms.Button();
@@ -40,9 +43,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtma = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Column1MaTK = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1Usename = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvtaikhoan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,109 +55,12 @@
             this.Column1MaTK,
             this.Column1Usename,
             this.Column1Password});
-            this.dtgvtaikhoan.Location = new System.Drawing.Point(94, 229);
+            this.dtgvtaikhoan.Location = new System.Drawing.Point(125, 282);
+            this.dtgvtaikhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtgvtaikhoan.Name = "dtgvtaikhoan";
             this.dtgvtaikhoan.ReadOnly = true;
-            this.dtgvtaikhoan.Size = new System.Drawing.Size(445, 146);
+            this.dtgvtaikhoan.Size = new System.Drawing.Size(593, 180);
             this.dtgvtaikhoan.TabIndex = 4;
-            // 
-            // btthoat
-            // 
-            this.btthoat.Location = new System.Drawing.Point(489, 185);
-            this.btthoat.Name = "btthoat";
-            this.btthoat.Size = new System.Drawing.Size(75, 23);
-            this.btthoat.TabIndex = 12;
-            this.btthoat.Text = "Thoát";
-            this.btthoat.UseVisualStyleBackColor = true;
-            this.btthoat.Click += new System.EventHandler(this.btthoat_Click);
-            // 
-            // btXoa
-            // 
-            this.btXoa.Location = new System.Drawing.Point(349, 185);
-            this.btXoa.Name = "btXoa";
-            this.btXoa.Size = new System.Drawing.Size(75, 23);
-            this.btXoa.TabIndex = 13;
-            this.btXoa.Text = "Xóa";
-            this.btXoa.UseVisualStyleBackColor = true;
-            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
-            // 
-            // btSua
-            // 
-            this.btSua.Location = new System.Drawing.Point(218, 185);
-            this.btSua.Name = "btSua";
-            this.btSua.Size = new System.Drawing.Size(75, 23);
-            this.btSua.TabIndex = 14;
-            this.btSua.Text = "Sửa";
-            this.btSua.UseVisualStyleBackColor = true;
-            this.btSua.Click += new System.EventHandler(this.btSua_Click);
-            // 
-            // btThem
-            // 
-            this.btThem.Location = new System.Drawing.Point(94, 185);
-            this.btThem.Name = "btThem";
-            this.btThem.Size = new System.Drawing.Size(75, 23);
-            this.btThem.TabIndex = 15;
-            this.btThem.Text = "Thêm";
-            this.btThem.UseVisualStyleBackColor = true;
-            this.btThem.Click += new System.EventHandler(this.btThem_Click);
-            // 
-            // txtmatkhau
-            // 
-            this.txtmatkhau.Location = new System.Drawing.Point(418, 125);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(156, 20);
-            this.txtmatkhau.TabIndex = 9;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(346, 128);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Mật Khẩu";
-            // 
-            // txtten
-            // 
-            this.txtten.Location = new System.Drawing.Point(155, 125);
-            this.txtten.Name = "txtten";
-            this.txtten.Size = new System.Drawing.Size(148, 20);
-            this.txtten.TabIndex = 10;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 125);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Tên Tài Khoản";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(258, 34);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(141, 19);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Quản lý tài khoản";
-            // 
-            // txtma
-            // 
-            this.txtma.Location = new System.Drawing.Point(155, 74);
-            this.txtma.Name = "txtma";
-            this.txtma.Size = new System.Drawing.Size(148, 20);
-            this.txtma.TabIndex = 16;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 77);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Mã Tài Khoản";
             // 
             // Column1MaTK
             // 
@@ -182,11 +85,121 @@
             this.Column1Password.ReadOnly = true;
             this.Column1Password.Width = 150;
             // 
+            // btthoat
+            // 
+            this.btthoat.Location = new System.Drawing.Point(652, 228);
+            this.btthoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btthoat.Name = "btthoat";
+            this.btthoat.Size = new System.Drawing.Size(100, 28);
+            this.btthoat.TabIndex = 12;
+            this.btthoat.Text = "Thoát";
+            this.btthoat.UseVisualStyleBackColor = true;
+            this.btthoat.Click += new System.EventHandler(this.btthoat_Click);
+            // 
+            // btXoa
+            // 
+            this.btXoa.Location = new System.Drawing.Point(465, 228);
+            this.btXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btXoa.Name = "btXoa";
+            this.btXoa.Size = new System.Drawing.Size(100, 28);
+            this.btXoa.TabIndex = 13;
+            this.btXoa.Text = "Xóa";
+            this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
+            // 
+            // btSua
+            // 
+            this.btSua.Location = new System.Drawing.Point(291, 228);
+            this.btSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btSua.Name = "btSua";
+            this.btSua.Size = new System.Drawing.Size(100, 28);
+            this.btSua.TabIndex = 14;
+            this.btSua.Text = "Sửa";
+            this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
+            // 
+            // btThem
+            // 
+            this.btThem.Location = new System.Drawing.Point(125, 228);
+            this.btThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btThem.Name = "btThem";
+            this.btThem.Size = new System.Drawing.Size(100, 28);
+            this.btThem.TabIndex = 15;
+            this.btThem.Text = "Thêm";
+            this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
+            // 
+            // txtmatkhau
+            // 
+            this.txtmatkhau.Location = new System.Drawing.Point(557, 154);
+            this.txtmatkhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtmatkhau.Name = "txtmatkhau";
+            this.txtmatkhau.Size = new System.Drawing.Size(207, 22);
+            this.txtmatkhau.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(461, 158);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 17);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Mật Khẩu";
+            // 
+            // txtten
+            // 
+            this.txtten.Location = new System.Drawing.Point(207, 154);
+            this.txtten.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtten.Name = "txtten";
+            this.txtten.Size = new System.Drawing.Size(196, 22);
+            this.txtten.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(97, 154);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 17);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Tên Tài Khoản";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.Location = new System.Drawing.Point(344, 42);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(176, 24);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Quản lý tài khoản";
+            // 
+            // txtma
+            // 
+            this.txtma.Location = new System.Drawing.Point(207, 91);
+            this.txtma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtma.Name = "txtma";
+            this.txtma.Size = new System.Drawing.Size(196, 22);
+            this.txtma.TabIndex = 16;
+            this.txtma.TextChanged += new System.EventHandler(this.txtma_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(97, 95);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 17);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Mã Tài Khoản";
+            // 
             // TaiKhoan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(652, 412);
+            this.ClientSize = new System.Drawing.Size(869, 507);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtma);
             this.Controls.Add(this.dtgvtaikhoan);
@@ -199,6 +212,7 @@
             this.Controls.Add(this.txtten);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TaiKhoan";
             this.Text = "TaiKhoan";
             this.Load += new System.EventHandler(this.TaiKhoan_Load);

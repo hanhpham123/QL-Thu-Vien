@@ -72,5 +72,10 @@ namespace TTN_QLTV
         {
 
         }
+
+        private void quảnLýToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

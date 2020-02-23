@@ -280,5 +280,10 @@ inner join TacGia ON S.MaTG=TacGia.MaTG";
 
             dtgvsach.DataSource = data;  //gán giá trị vào datagridview
         }
+
+        private void txtnxb_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

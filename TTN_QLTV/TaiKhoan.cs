@@ -119,5 +119,10 @@ namespace TTN_QLTV
             this.Close();
             new Form1().Visible = true;
         }
+
+        private void txtma_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
